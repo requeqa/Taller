@@ -60,7 +60,6 @@ namespace Taller.Almacen
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tabIngreso = new System.Windows.Forms.TabPage();
-            this.tabSalida = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -74,6 +73,7 @@ namespace Taller.Almacen
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.tabSalida = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -95,8 +95,8 @@ namespace Taller.Almacen
             this.tabProducto.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabIngreso.SuspendLayout();
-            this.tabSalida.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.tabSalida.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -422,17 +422,6 @@ namespace Taller.Almacen
             this.tabIngreso.Text = "Ingreso";
             this.tabIngreso.UseVisualStyleBackColor = true;
             // 
-            // tabSalida
-            // 
-            this.tabSalida.Controls.Add(this.groupBox4);
-            this.tabSalida.Location = new System.Drawing.Point(4, 24);
-            this.tabSalida.Name = "tabSalida";
-            this.tabSalida.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSalida.Size = new System.Drawing.Size(608, 609);
-            this.tabSalida.TabIndex = 3;
-            this.tabSalida.Text = "Salida";
-            this.tabSalida.UseVisualStyleBackColor = true;
-            // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -455,7 +444,7 @@ namespace Taller.Almacen
             this.groupBox3.Size = new System.Drawing.Size(633, 297);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.groupBox3.Text = "Ingreso de mercaderia";
             // 
             // maskedTextBox1
             // 
@@ -557,6 +546,17 @@ namespace Taller.Almacen
             this.label9.TabIndex = 0;
             this.label9.Text = "Codigo:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // tabSalida
+            // 
+            this.tabSalida.Controls.Add(this.groupBox4);
+            this.tabSalida.Location = new System.Drawing.Point(4, 24);
+            this.tabSalida.Name = "tabSalida";
+            this.tabSalida.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSalida.Size = new System.Drawing.Size(639, 609);
+            this.tabSalida.TabIndex = 3;
+            this.tabSalida.Text = "Salida";
+            this.tabSalida.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
@@ -702,9 +702,9 @@ namespace Taller.Almacen
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.tabIngreso.ResumeLayout(false);
-            this.tabSalida.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.tabSalida.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);

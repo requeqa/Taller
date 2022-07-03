@@ -15,7 +15,7 @@ namespace Taller
         public Main()
         {
             InitializeComponent();
-            //AddFormulario(new Usuario.frmLogin());
+            AddFormulario(new Usuario.frmLogin());
             /*      Iniciar Login
             frmLogin = new Usuario.frmLogin();
             frmLogin.TopLevel = false;
@@ -49,9 +49,7 @@ namespace Taller
         #endregion
         private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAlmacen = new Almacen.frmAlmacen();
-            AddFormulario(frmAlmacen);
-            frmAlmacen.ChangeTab(1);
+            
         }
         private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -62,12 +60,14 @@ namespace Taller
             AddFormulario(new Almacen.Parametros.frmUnidad());
         }       
 
-        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ListadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmAlmacen = new Almacen.frmAlmacen();
+            AddFormulario(frmAlmacen);
+            frmAlmacen.ChangeTab(1);
         }
 
-        private void nuevoToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void NuevoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             frmAlmacen = new Almacen.frmAlmacen();
             AddFormulario(frmAlmacen);
