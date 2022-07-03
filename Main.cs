@@ -33,6 +33,7 @@ namespace Taller
         private Usuario.frmLogin frmLogin;
 
         private Almacen.frmAlmacen frmAlmacen;
+        private Almacen.Parametros.frmMarca frmMarca;
 
         private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -43,6 +44,13 @@ namespace Taller
             frmAlmacen.Show();    // */
         }
 
-        
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMarca = new Almacen.Parametros.frmMarca();
+            frmMarca.TopLevel = false;
+            frmMarca.AutoScroll = true;
+            panel1.Controls.Add(frmMarca);
+            frmMarca.Show();    // */
+        }
     }
 }

@@ -31,13 +31,13 @@ namespace Taller
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.parametrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.marcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,16 +62,6 @@ namespace Taller
             this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.inventarioToolStripMenuItem.Text = "Producto";
             this.inventarioToolStripMenuItem.Click += new System.EventHandler(this.inventarioToolStripMenuItem_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Location = new System.Drawing.Point(0, 27);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(784, 534);
-            this.panel1.TabIndex = 6;
             // 
             // nuevoToolStripMenuItem
             // 
@@ -107,12 +97,23 @@ namespace Taller
             this.marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
             this.marcaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.marcaToolStripMenuItem.Text = "Marca";
+            this.marcaToolStripMenuItem.Click += new System.EventHandler(this.marcaToolStripMenuItem_Click);
             // 
             // unidadToolStripMenuItem
             // 
             this.unidadToolStripMenuItem.Name = "unidadToolStripMenuItem";
             this.unidadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.unidadToolStripMenuItem.Text = "Unidad";
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(784, 534);
+            this.panel1.TabIndex = 6;
             // 
             // Main
             // 
