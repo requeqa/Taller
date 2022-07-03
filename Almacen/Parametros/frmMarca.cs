@@ -17,7 +17,7 @@ namespace Taller.Almacen.Parametros
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cerrar")
+            MessageBox.Show("Cerrar");
         }
 
         private void label2_Click(object sender, EventArgs e)
