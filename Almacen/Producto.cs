@@ -27,21 +27,19 @@ namespace Taller.Almacen
         public string descUnidad { get; set; }
         public string descMarca { get; set; }
         //  public string Lugar { get; set; } // No se usara lugar por que generara un movimiento de Kardex innecesario
-
-        public int Cantidad { get; set; } 
-        public decimal Costo { get { return costo; } set { costo = value; } }
-        public decimal Valor { get { return Cantidad * Costo; } }
+        //public int Cantidad { get; set; } 
+        //public decimal Costo { get { return costo; } set { costo = value; } }
+        //public decimal Valor { get { return Cantidad * Costo; } }
         // Cantidad costo valor
+        #endregion
 
-
-
+        #region Atributos
         public int cantidad;
         public decimal costo;
         public int codigoUnidad;
         public int codigoMarca;
         public List<Unidad> Unidades = new List<Unidad>();
         public List<Marca> Marcas = new List<Marca>();
-
         #endregion
 
         #region Funciones
@@ -54,9 +52,9 @@ namespace Taller.Almacen
             CodigoMarca = id;
             switch (id)
             {
-                case 1: Descripcion = "Bateria"; Cantidad = 2; Costo = (decimal)200.00; break;
-                case 2: Descripcion = "Tornillos"; Cantidad = 3; costo = (decimal)6.35; break;
-                case 3: Descripcion = "Liquido de frenos"; Cantidad = 2; costo = (decimal)20.0; break;
+                case 1: Descripcion = "Bateria";  break;
+                case 2: Descripcion = "Tornillos"; break;
+                case 3: Descripcion = "Liquido de frenos"; break;
             }
         }
         void Agregar() { }
