@@ -19,5 +19,15 @@ namespace Taller.Almacen.Parametros
         {
             MessageBox.Show("Cerrar")
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
