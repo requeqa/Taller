@@ -30,7 +30,7 @@ namespace Taller.Almacen
         {
             producto = new Producto();
             foreach (Marca marca in producto.Marcas) { cbMarca.Items.Add(marca.Descripcion); }
-            foreach (Unidad unidad in producto.Unidades) { cbUnidad.Items.Add(unidad.Descripcion); }
+            //foreach (Unidad unidad in producto.Unidades) { cbUnidad.Items.Add(unidad.Descripcion); }
         }
 
         private void unidadDeManejoToolStripMenuItem_Click(object sender, EventArgs e)
