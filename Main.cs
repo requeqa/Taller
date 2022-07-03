@@ -15,6 +15,7 @@ namespace Taller
         public Main()
         {
             InitializeComponent();
+            //AddFormulario(new Usuario.frmLogin());
             /*      Iniciar Login
             frmLogin = new Usuario.frmLogin();
             frmLogin.TopLevel = false;
@@ -24,7 +25,8 @@ namespace Taller
             frmLogin.Show();    // */
 
             //*      Iniciar Login
-            frmAlmacen = new Almacen.frmAlmacen();
+            //AddFormulario(new Almacen.frmAlmacen());
+            /*frmAlmacen = new Almacen.frmAlmacen();
             frmAlmacen.TopLevel = false;
             frmAlmacen.AutoScroll = true;
             panel1.Controls.Add(frmAlmacen);
@@ -35,32 +37,41 @@ namespace Taller
         private Almacen.frmAlmacen frmAlmacen;
         private Almacen.Parametros.frmMarca frmMarca;
         private Almacen.Parametros.frmUnidad frmUnidad;
-
+        #region metodos
+        public void AddFormulario (Form form)
+        {
+            form.TopLevel = false;
+            form.TopMost = false;
+            form.AutoScroll = true;
+            panel1.Controls.Add(form);
+            form.Show();
+        }
+        #endregion
         private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAlmacen = new Almacen.frmAlmacen();
-            frmAlmacen.TopLevel = false;
-            frmAlmacen.AutoScroll = true;
-            panel1.Controls.Add(frmAlmacen);
-            frmAlmacen.Show();    // */
+            AddFormulario(frmAlmacen);
+            frmAlmacen.ChangeTab(1);
         }
-
         private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmMarca = new Almacen.Parametros.frmMarca();
-            frmMarca.TopLevel = false;
-            frmMarca.AutoScroll = true;
-            panel1.Controls.Add(frmMarca);
-            frmMarca.Show();    // */
+            AddFormulario(new Almacen.Parametros.frmMarca());
         }
-
         private void unidadToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmUnidad = new Almacen.Parametros.frmUnidad();
-            frmUnidad.TopLevel = false;
-            frmUnidad.AutoScroll = true;
-            panel1.Controls.Add(frmUnidad);
-            frmUnidad.Show();
+            AddFormulario(new Almacen.Parametros.frmUnidad());
+        }       
+
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuevoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmAlmacen = new Almacen.frmAlmacen();
+            AddFormulario(frmAlmacen);
+            frmAlmacen.ChangeTab(2);
         }
     }
 }

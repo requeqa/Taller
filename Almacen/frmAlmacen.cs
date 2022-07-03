@@ -32,15 +32,11 @@ namespace Taller.Almacen
             foreach (Marca marca in producto.Marcas) { cbMarca.Items.Add(marca.Descripcion); }
             //foreach (Unidad unidad in producto.Unidades) { cbUnidad.Items.Add(unidad.Descripcion); }
         }
-
-        private void unidadDeManejoToolStripMenuItem_Click(object sender, EventArgs e)
+        public void ChangeTab(int num)
         {
-
+            tcListado.SelectedTab=tcListado.TabPages[num];
         }
 
-        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
