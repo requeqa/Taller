@@ -66,13 +66,13 @@ namespace Taller
             // nuevoToolStripMenuItem
             // 
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.nuevoToolStripMenuItem.Text = "Listado";
             // 
             // nuevoToolStripMenuItem1
             // 
             this.nuevoToolStripMenuItem1.Name = "nuevoToolStripMenuItem1";
-            this.nuevoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem1.Size = new System.Drawing.Size(112, 22);
             this.nuevoToolStripMenuItem1.Text = "Nuevo";
             // 
             // parametrosToolStripMenuItem
@@ -104,6 +104,7 @@ namespace Taller
             this.unidadToolStripMenuItem.Name = "unidadToolStripMenuItem";
             this.unidadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.unidadToolStripMenuItem.Text = "Unidad";
+            this.unidadToolStripMenuItem.Click += new System.EventHandler(this.unidadToolStripMenuItem_Click);
             // 
             // panel1
             // 

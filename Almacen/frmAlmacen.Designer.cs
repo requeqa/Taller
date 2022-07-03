@@ -74,13 +74,6 @@ namespace Taller.Almacen
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.parametrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.unidadDeManejoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.marcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tcListado.SuspendLayout();
             this.tabListado.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -90,7 +83,6 @@ namespace Taller.Almacen
             this.tabIngreso.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcListado
@@ -100,10 +92,10 @@ namespace Taller.Almacen
             this.tcListado.Controls.Add(this.tabIngreso);
             this.tcListado.Controls.Add(this.tabSalida);
             this.tcListado.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tcListado.Location = new System.Drawing.Point(0, 24);
+            this.tcListado.Location = new System.Drawing.Point(0, 0);
             this.tcListado.Name = "tcListado";
             this.tcListado.SelectedIndex = 0;
-            this.tcListado.Size = new System.Drawing.Size(1061, 510);
+            this.tcListado.Size = new System.Drawing.Size(1061, 534);
             this.tcListado.TabIndex = 3;
             // 
             // tabListado
@@ -117,7 +109,7 @@ namespace Taller.Almacen
             this.tabListado.Location = new System.Drawing.Point(4, 24);
             this.tabListado.Name = "tabListado";
             this.tabListado.Padding = new System.Windows.Forms.Padding(3);
-            this.tabListado.Size = new System.Drawing.Size(1053, 482);
+            this.tabListado.Size = new System.Drawing.Size(1053, 506);
             this.tabListado.TabIndex = 0;
             this.tabListado.Text = "Listado";
             this.tabListado.UseVisualStyleBackColor = true;
@@ -544,68 +536,12 @@ namespace Taller.Almacen
             this.button5.Text = "Cerrar";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // productosToolStripMenuItem
-            // 
-            this.productosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listadoToolStripMenuItem,
-            this.nuevoToolStripMenuItem});
-            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.productosToolStripMenuItem.Text = "Productos";
-            // 
-            // listadoToolStripMenuItem
-            // 
-            this.listadoToolStripMenuItem.Name = "listadoToolStripMenuItem";
-            this.listadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.listadoToolStripMenuItem.Text = "Listado";
-            // 
-            // nuevoToolStripMenuItem
-            // 
-            this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nuevoToolStripMenuItem.Text = "Nuevo";
-            // 
-            // parametrosToolStripMenuItem
-            // 
-            this.parametrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.unidadDeManejoToolStripMenuItem,
-            this.marcaToolStripMenuItem});
-            this.parametrosToolStripMenuItem.Name = "parametrosToolStripMenuItem";
-            this.parametrosToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
-            this.parametrosToolStripMenuItem.Text = "Parametros";
-            // 
-            // unidadDeManejoToolStripMenuItem
-            // 
-            this.unidadDeManejoToolStripMenuItem.Name = "unidadDeManejoToolStripMenuItem";
-            this.unidadDeManejoToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
-            this.unidadDeManejoToolStripMenuItem.Text = "Unidad";
-            this.unidadDeManejoToolStripMenuItem.Click += new System.EventHandler(this.unidadDeManejoToolStripMenuItem_Click);
-            // 
-            // marcaToolStripMenuItem
-            // 
-            this.marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
-            this.marcaToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
-            this.marcaToolStripMenuItem.Text = "Marca";
-            this.marcaToolStripMenuItem.Click += new System.EventHandler(this.marcaToolStripMenuItem_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productosToolStripMenuItem,
-            this.parametrosToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1061, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
             // frmAlmacen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1061, 534);
             this.Controls.Add(this.tcListado);
-            this.Controls.Add(this.menuStrip1);
             this.Name = "frmAlmacen";
             this.Text = "Almacen";
             this.tcListado.ResumeLayout(false);
@@ -621,10 +557,7 @@ namespace Taller.Almacen
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -674,12 +607,5 @@ namespace Taller.Almacen
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listadoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nuevoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem parametrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem unidadDeManejoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem marcaToolStripMenuItem;
-        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
