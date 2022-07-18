@@ -111,6 +111,10 @@ namespace Taller.Almacen
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.tcListado.SuspendLayout();
             this.tabListado.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -126,6 +130,8 @@ namespace Taller.Almacen
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
             // 
             // tcListado
@@ -579,6 +585,8 @@ namespace Taller.Almacen
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.label25);
+            this.groupBox5.Controls.Add(this.numericUpDown1);
             this.groupBox5.Controls.Add(this.textBox8);
             this.groupBox5.Controls.Add(this.label9);
             this.groupBox5.Controls.Add(this.label8);
@@ -791,6 +799,8 @@ namespace Taller.Almacen
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.label26);
+            this.groupBox6.Controls.Add(this.numericUpDown2);
             this.groupBox6.Controls.Add(this.textBox12);
             this.groupBox6.Controls.Add(this.label19);
             this.groupBox6.Controls.Add(this.label20);
@@ -951,6 +961,38 @@ namespace Taller.Almacen
             this.button15.Text = "Nuevo";
             this.button15.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(119, 109);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 23);
+            this.numericUpDown1.TabIndex = 11;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(55, 112);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(58, 15);
+            this.label25.TabIndex = 12;
+            this.label25.Text = "Cantidad:";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(55, 112);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(58, 15);
+            this.label26.TabIndex = 14;
+            this.label26.Text = "Cantidad:";
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(119, 109);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(120, 23);
+            this.numericUpDown2.TabIndex = 13;
+            // 
             // frmAlmacen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -981,6 +1023,8 @@ namespace Taller.Almacen
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1068,5 +1112,9 @@ namespace Taller.Almacen
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
     }
 }
