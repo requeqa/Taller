@@ -103,7 +103,6 @@ namespace Taller.Almacen
             this.label22 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.label23 = new System.Windows.Forms.Label();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.button11 = new System.Windows.Forms.Button();
@@ -115,6 +114,7 @@ namespace Taller.Almacen
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.textBox17 = new System.Windows.Forms.TextBox();
             this.tcListado.SuspendLayout();
             this.tabListado.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -738,7 +738,7 @@ namespace Taller.Almacen
             this.groupBox4.Size = new System.Drawing.Size(633, 297);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Ingreso de mercaderia";
+            this.groupBox4.Text = "Salida de mercaderia";
             // 
             // textBox10
             // 
@@ -799,6 +799,7 @@ namespace Taller.Almacen
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.textBox17);
             this.groupBox6.Controls.Add(this.label26);
             this.groupBox6.Controls.Add(this.numericUpDown2);
             this.groupBox6.Controls.Add(this.textBox12);
@@ -809,7 +810,6 @@ namespace Taller.Almacen
             this.groupBox6.Controls.Add(this.label22);
             this.groupBox6.Controls.Add(this.textBox15);
             this.groupBox6.Controls.Add(this.comboBox5);
-            this.groupBox6.Controls.Add(this.comboBox6);
             this.groupBox6.Controls.Add(this.label23);
             this.groupBox6.Location = new System.Drawing.Point(13, 145);
             this.groupBox6.Name = "groupBox6";
@@ -884,14 +884,6 @@ namespace Taller.Almacen
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(203, 23);
             this.comboBox5.TabIndex = 8;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(398, 22);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(203, 23);
-            this.comboBox6.TabIndex = 4;
             // 
             // label23
             // 
@@ -992,6 +984,13 @@ namespace Taller.Almacen
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(120, 23);
             this.numericUpDown2.TabIndex = 13;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(398, 22);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(203, 23);
+            this.textBox17.TabIndex = 15;
             // 
             // frmAlmacen
             // 
@@ -1110,11 +1109,11 @@ namespace Taller.Almacen
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.TextBox textBox17;
     }
 }
