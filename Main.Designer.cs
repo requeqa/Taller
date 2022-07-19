@@ -38,6 +38,11 @@ namespace Taller
             this.marcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.listaDePreciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cFEspecialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sFEspecialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cFNormalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sFNormalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +50,8 @@ namespace Taller
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inventarioToolStripMenuItem,
-            this.parametrosToolStripMenuItem});
+            this.parametrosToolStripMenuItem,
+            this.listaDePreciosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
@@ -66,14 +72,14 @@ namespace Taller
             // nuevoToolStripMenuItem
             // 
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.nuevoToolStripMenuItem.Text = "Listado";
             this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.ListadoToolStripMenuItem_Click);
             // 
             // nuevoToolStripMenuItem1
             // 
             this.nuevoToolStripMenuItem1.Name = "nuevoToolStripMenuItem1";
-            this.nuevoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem1.Size = new System.Drawing.Size(112, 22);
             this.nuevoToolStripMenuItem1.Text = "Nuevo";
             this.nuevoToolStripMenuItem1.Click += new System.EventHandler(this.NuevoToolStripMenuItem1_Click);
             // 
@@ -91,7 +97,7 @@ namespace Taller
             this.marcaToolStripMenuItem,
             this.unidadToolStripMenuItem});
             this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            this.productoToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.productoToolStripMenuItem.Text = "Producto";
             // 
             // marcaToolStripMenuItem
@@ -117,6 +123,43 @@ namespace Taller
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(784, 534);
             this.panel1.TabIndex = 6;
+            // 
+            // listaDePreciosToolStripMenuItem
+            // 
+            this.listaDePreciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cFEspecialesToolStripMenuItem,
+            this.sFEspecialesToolStripMenuItem,
+            this.cFNormalToolStripMenuItem,
+            this.sFNormalToolStripMenuItem});
+            this.listaDePreciosToolStripMenuItem.Name = "listaDePreciosToolStripMenuItem";
+            this.listaDePreciosToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
+            this.listaDePreciosToolStripMenuItem.Text = "Lista de Precios";
+            // 
+            // cFEspecialesToolStripMenuItem
+            // 
+            this.cFEspecialesToolStripMenuItem.Name = "cFEspecialesToolStripMenuItem";
+            this.cFEspecialesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cFEspecialesToolStripMenuItem.Text = "C/F Normal";
+            this.cFEspecialesToolStripMenuItem.Click += new System.EventHandler(this.cFEspecialesToolStripMenuItem_Click);
+            // 
+            // sFEspecialesToolStripMenuItem
+            // 
+            this.sFEspecialesToolStripMenuItem.Name = "sFEspecialesToolStripMenuItem";
+            this.sFEspecialesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sFEspecialesToolStripMenuItem.Text = "S/F Normal";
+            this.sFEspecialesToolStripMenuItem.Click += new System.EventHandler(this.sFEspecialesToolStripMenuItem_Click);
+            // 
+            // cFNormalToolStripMenuItem
+            // 
+            this.cFNormalToolStripMenuItem.Name = "cFNormalToolStripMenuItem";
+            this.cFNormalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cFNormalToolStripMenuItem.Text = "C/F Especial";
+            // 
+            // sFNormalToolStripMenuItem
+            // 
+            this.sFNormalToolStripMenuItem.Name = "sFNormalToolStripMenuItem";
+            this.sFNormalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sFNormalToolStripMenuItem.Text = "S/F Especial";
             // 
             // Main
             // 
@@ -146,6 +189,11 @@ namespace Taller
         private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem marcaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem unidadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listaDePreciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cFEspecialesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sFEspecialesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cFNormalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sFNormalToolStripMenuItem;
     }
 }
 

@@ -74,5 +74,15 @@ namespace Taller
             AddFormulario(frmAlmacen);
             frmAlmacen.ChangeTab(2);
         }
+
+        private void cFEspecialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sFEspecialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
