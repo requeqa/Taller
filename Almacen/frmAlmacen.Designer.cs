@@ -63,18 +63,28 @@ namespace Taller.Almacen
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -84,15 +94,11 @@ namespace Taller.Almacen
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tabSalida = new System.Windows.Forms.TabPage();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.label29 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -115,18 +121,12 @@ namespace Taller.Almacen
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.tcListado.SuspendLayout();
             this.tabListado.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -140,10 +140,10 @@ namespace Taller.Almacen
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.tabSalida.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // tcListado
@@ -505,6 +505,23 @@ namespace Taller.Almacen
             this.button7.Text = "Eliminar";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(70, 576);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(96, 23);
+            this.textBox8.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(15, 579);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 15);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Total:";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // button8
             // 
             this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -557,6 +574,59 @@ namespace Taller.Almacen
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Ingreso de mercaderia";
             // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Compra Local",
+            "Importacion",
+            "Pago a cuenta"});
+            this.comboBox8.Location = new System.Drawing.Point(83, 80);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(180, 23);
+            this.comboBox8.TabIndex = 34;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(21, 83);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 15);
+            this.label14.TabIndex = 35;
+            this.label14.Text = "Causa:";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(83, 51);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(279, 23);
+            this.textBox13.TabIndex = 33;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(24, 54);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(39, 15);
+            this.label24.TabIndex = 32;
+            this.label24.Text = "Glosa:";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(83, 22);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(237, 23);
+            this.textBox16.TabIndex = 31;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(10, 25);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(53, 15);
+            this.label30.TabIndex = 30;
+            this.label30.Text = "Registro:";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -605,6 +675,39 @@ namespace Taller.Almacen
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Detalle";
             // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(119, 22);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(160, 23);
+            this.textBox20.TabIndex = 16;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(64, 25);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(49, 15);
+            this.label32.TabIndex = 15;
+            this.label32.Text = "Codigo:";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(429, 112);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(56, 15);
+            this.label27.TabIndex = 14;
+            this.label27.Text = "Precio/U:";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(493, 109);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(108, 23);
+            this.textBox18.TabIndex = 13;
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -620,23 +723,6 @@ namespace Taller.Almacen
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(77, 23);
             this.numericUpDown1.TabIndex = 11;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(70, 576);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(96, 23);
-            this.textBox8.TabIndex = 3;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(15, 579);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 15);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Total:";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label8
             // 
@@ -724,80 +810,22 @@ namespace Taller.Almacen
             this.tabSalida.Text = "Salida";
             this.tabSalida.UseVisualStyleBackColor = true;
             // 
-            // dataGridView3
+            // textBox19
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(3, 311);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.Size = new System.Drawing.Size(630, 256);
-            this.dataGridView3.TabIndex = 17;
+            this.textBox19.Location = new System.Drawing.Point(80, 578);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(96, 23);
+            this.textBox19.TabIndex = 20;
             // 
-            // button11
+            // label31
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.Location = new System.Drawing.Point(551, 574);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(82, 29);
-            this.button11.TabIndex = 16;
-            this.button11.Text = "Cerrar";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button12.Location = new System.Drawing.Point(463, 574);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(82, 29);
-            this.button12.TabIndex = 15;
-            this.button12.Text = "Eliminar";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button13.Location = new System.Drawing.Point(375, 574);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(82, 29);
-            this.button13.TabIndex = 14;
-            this.button13.Text = "Editar";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button14.Location = new System.Drawing.Point(287, 574);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(82, 29);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "Guardar";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button15.Location = new System.Drawing.Point(199, 574);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(82, 29);
-            this.button15.TabIndex = 12;
-            this.button15.Text = "Nuevo";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(493, 109);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(108, 23);
-            this.textBox18.TabIndex = 13;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(429, 112);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(56, 15);
-            this.label27.TabIndex = 14;
-            this.label27.Text = "Precio/U:";
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(25, 581);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(35, 15);
+            this.label31.TabIndex = 19;
+            this.label31.Text = "Total:";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // groupBox4
             // 
@@ -820,6 +848,28 @@ namespace Taller.Almacen
             this.groupBox4.TabIndex = 18;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Ingreso de mercaderia";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Venta",
+            "Merma",
+            "Robo",
+            "Otro"});
+            this.comboBox7.Location = new System.Drawing.Point(77, 80);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(180, 23);
+            this.comboBox7.TabIndex = 28;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(15, 83);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(42, 15);
+            this.label29.TabIndex = 29;
+            this.label29.Text = "Causa:";
             // 
             // textBox10
             // 
@@ -1017,115 +1067,64 @@ namespace Taller.Almacen
             this.label28.TabIndex = 8;
             this.label28.Text = "Marca:";
             // 
-            // comboBox7
+            // dataGridView3
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "Venta",
-            "Merma",
-            "Robo",
-            "Otro"});
-            this.comboBox7.Location = new System.Drawing.Point(77, 80);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(180, 23);
-            this.comboBox7.TabIndex = 28;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(3, 311);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowTemplate.Height = 25;
+            this.dataGridView3.Size = new System.Drawing.Size(630, 256);
+            this.dataGridView3.TabIndex = 17;
             // 
-            // label29
+            // button11
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(15, 83);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(42, 15);
-            this.label29.TabIndex = 29;
-            this.label29.Text = "Causa:";
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button11.Location = new System.Drawing.Point(551, 574);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(82, 29);
+            this.button11.TabIndex = 16;
+            this.button11.Text = "Cerrar";
+            this.button11.UseVisualStyleBackColor = true;
             // 
-            // textBox19
+            // button12
             // 
-            this.textBox19.Location = new System.Drawing.Point(80, 578);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(96, 23);
-            this.textBox19.TabIndex = 20;
+            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button12.Location = new System.Drawing.Point(463, 574);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(82, 29);
+            this.button12.TabIndex = 15;
+            this.button12.Text = "Eliminar";
+            this.button12.UseVisualStyleBackColor = true;
             // 
-            // label31
+            // button13
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(25, 581);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(35, 15);
-            this.label31.TabIndex = 19;
-            this.label31.Text = "Total:";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button13.Location = new System.Drawing.Point(375, 574);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(82, 29);
+            this.button13.TabIndex = 14;
+            this.button13.Text = "Editar";
+            this.button13.UseVisualStyleBackColor = true;
             // 
-            // comboBox8
+            // button14
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "Venta",
-            "Merma",
-            "Robo",
-            "Otro"});
-            this.comboBox8.Location = new System.Drawing.Point(83, 80);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(180, 23);
-            this.comboBox8.TabIndex = 34;
+            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button14.Location = new System.Drawing.Point(287, 574);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(82, 29);
+            this.button14.TabIndex = 13;
+            this.button14.Text = "Guardar";
+            this.button14.UseVisualStyleBackColor = true;
             // 
-            // label14
+            // button15
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(21, 83);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(42, 15);
-            this.label14.TabIndex = 35;
-            this.label14.Text = "Causa:";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(83, 51);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(279, 23);
-            this.textBox13.TabIndex = 33;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(24, 54);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(39, 15);
-            this.label24.TabIndex = 32;
-            this.label24.Text = "Glosa:";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(83, 22);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(237, 23);
-            this.textBox16.TabIndex = 31;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(10, 25);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(53, 15);
-            this.label30.TabIndex = 30;
-            this.label30.Text = "Registro:";
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(119, 22);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(160, 23);
-            this.textBox20.TabIndex = 16;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(64, 25);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(49, 15);
-            this.label32.TabIndex = 15;
-            this.label32.Text = "Codigo:";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button15.Location = new System.Drawing.Point(199, 574);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(82, 29);
+            this.button15.TabIndex = 12;
+            this.button15.Text = "Nuevo";
+            this.button15.UseVisualStyleBackColor = true;
             // 
             // frmAlmacen
             // 
@@ -1155,12 +1154,12 @@ namespace Taller.Almacen
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.tabSalida.ResumeLayout(false);
             this.tabSalida.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
