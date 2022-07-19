@@ -131,6 +131,7 @@ namespace Taller.Almacen
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
             this.tcListado.SuspendLayout();
             this.tabListado.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -561,7 +562,7 @@ namespace Taller.Almacen
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.Controls.Add(this.button18);
+            this.groupBox3.Controls.Add(this.button20);
             this.groupBox3.Controls.Add(this.comboBox8);
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.textBox13);
@@ -628,9 +629,9 @@ namespace Taller.Almacen
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(10, 25);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(53, 15);
+            this.label30.Size = new System.Drawing.Size(34, 15);
             this.label30.TabIndex = 30;
-            this.label30.Text = "Registro:";
+            this.label30.Text = "Guia:";
             // 
             // label2
             // 
@@ -659,6 +660,7 @@ namespace Taller.Almacen
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.button18);
             this.groupBox5.Controls.Add(this.button19);
             this.groupBox5.Controls.Add(this.textBox20);
             this.groupBox5.Controls.Add(this.label32);
@@ -1154,7 +1156,7 @@ namespace Taller.Almacen
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(326, 22);
+            this.button18.Location = new System.Drawing.Point(285, 21);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(46, 23);
             this.button18.TabIndex = 36;
@@ -1169,6 +1171,15 @@ namespace Taller.Almacen
             this.button19.TabIndex = 32;
             this.button19.Text = "Agregar";
             this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(326, 24);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(46, 23);
+            this.button20.TabIndex = 37;
+            this.button20.Text = "Buscar";
+            this.button20.UseVisualStyleBackColor = true;
             // 
             // frmAlmacen
             // 
@@ -1311,5 +1322,6 @@ namespace Taller.Almacen
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button20;
     }
 }
