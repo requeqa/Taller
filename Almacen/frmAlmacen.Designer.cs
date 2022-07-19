@@ -630,7 +630,7 @@ namespace Taller.Almacen
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(461, 48);
+            this.label2.Location = new System.Drawing.Point(460, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 15);
             this.label2.TabIndex = 16;
@@ -639,7 +639,7 @@ namespace Taller.Almacen
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(373, 28);
+            this.label1.Location = new System.Drawing.Point(372, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 15;
@@ -906,7 +906,7 @@ namespace Taller.Almacen
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(461, 48);
+            this.label17.Location = new System.Drawing.Point(460, 54);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(96, 15);
             this.label17.TabIndex = 16;
@@ -915,7 +915,7 @@ namespace Taller.Almacen
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(373, 28);
+            this.label18.Location = new System.Drawing.Point(364, 25);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 15);
             this.label18.TabIndex = 15;

@@ -15,7 +15,8 @@ namespace Taller
         public Main()
         {
             InitializeComponent();
-            AddFormulario(new Usuario.frmLogin());
+            //AddFormulario(new Usuario.frmLogin());
+            AddFormulario(new Almacen.frmAlmacen());
             /*      Iniciar Login
             frmLogin = new Usuario.frmLogin();
             frmLogin.TopLevel = false;
