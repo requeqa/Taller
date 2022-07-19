@@ -127,6 +127,10 @@ namespace Taller.Almacen
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
             this.tcListado.SuspendLayout();
             this.tabListado.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -557,6 +561,7 @@ namespace Taller.Almacen
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox3.Controls.Add(this.button18);
             this.groupBox3.Controls.Add(this.comboBox8);
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.textBox13);
@@ -654,6 +659,7 @@ namespace Taller.Almacen
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.button19);
             this.groupBox5.Controls.Add(this.textBox20);
             this.groupBox5.Controls.Add(this.label32);
             this.groupBox5.Controls.Add(this.label27);
@@ -668,9 +674,9 @@ namespace Taller.Almacen
             this.groupBox5.Controls.Add(this.comboBox2);
             this.groupBox5.Controls.Add(this.comboBox4);
             this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Location = new System.Drawing.Point(13, 145);
+            this.groupBox5.Location = new System.Drawing.Point(13, 109);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(607, 151);
+            this.groupBox5.Size = new System.Drawing.Size(607, 182);
             this.groupBox5.TabIndex = 13;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Detalle";
@@ -832,6 +838,7 @@ namespace Taller.Almacen
             this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Controls.Add(this.button16);
             this.groupBox4.Controls.Add(this.comboBox7);
             this.groupBox4.Controls.Add(this.label29);
             this.groupBox4.Controls.Add(this.textBox10);
@@ -915,7 +922,7 @@ namespace Taller.Almacen
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(364, 25);
+            this.label18.Location = new System.Drawing.Point(372, 25);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 15);
             this.label18.TabIndex = 15;
@@ -930,6 +937,7 @@ namespace Taller.Almacen
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.button17);
             this.groupBox6.Controls.Add(this.label19);
             this.groupBox6.Controls.Add(this.textBox12);
             this.groupBox6.Controls.Add(this.label20);
@@ -944,9 +952,9 @@ namespace Taller.Almacen
             this.groupBox6.Controls.Add(this.comboBox5);
             this.groupBox6.Controls.Add(this.comboBox6);
             this.groupBox6.Controls.Add(this.label28);
-            this.groupBox6.Location = new System.Drawing.Point(13, 145);
+            this.groupBox6.Location = new System.Drawing.Point(13, 109);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(607, 151);
+            this.groupBox6.Size = new System.Drawing.Size(607, 182);
             this.groupBox6.TabIndex = 13;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Detalle";
@@ -1126,6 +1134,42 @@ namespace Taller.Almacen
             this.button15.Text = "Nuevo";
             this.button15.UseVisualStyleBackColor = true;
             // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(320, 21);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(46, 23);
+            this.button16.TabIndex = 30;
+            this.button16.Text = "Buscar";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(493, 138);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(108, 23);
+            this.button17.TabIndex = 31;
+            this.button17.Text = "Agregar";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(326, 22);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(46, 23);
+            this.button18.TabIndex = 36;
+            this.button18.Text = "Buscar";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(493, 138);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(108, 23);
+            this.button19.TabIndex = 32;
+            this.button19.Text = "Agregar";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
             // frmAlmacen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1263,5 +1307,9 @@ namespace Taller.Almacen
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
     }
 }
